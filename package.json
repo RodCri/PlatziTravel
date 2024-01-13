@@ -1,0 +1,21 @@
+{
+  "name": "platzitravel",
+  "version": "1.0.0",
+  "description": "Landing page development with tailwindcss of the course platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "tailwindcss -i ./src/css/style.css -o ./public/css/style.css --watch"
+  },
+  "keywords": [
+    "travel",
+    "boyaca"
+  ],
+  "author": "Cristian Camilo Rodriguez",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.0"
+  }
+}
